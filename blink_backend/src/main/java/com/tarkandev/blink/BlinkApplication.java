@@ -9,7 +9,6 @@ public class BlinkApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BlinkApplication.class, args);
-        HelloController temp = new HelloController();
-        temp.hello();
+
     }
 }
